@@ -204,6 +204,17 @@ img {
 .feature-list .item {
     width: 265px;
 }
+.what-we-do {
+    display: flex;
+    justify-content: center;
+}
+.our-team {
+    display: flex;
+    justify-content: center;
+}
+.flex-element-pic {
+    margin: 15px;
+}
 .button {
     border-radius: 4px;
     display: inline-block;
@@ -278,8 +289,12 @@ margin: -15px;
 .flex-element {
    margin: 15px;
 }
-.flex-element-pic {
-    margin: 10px;
+.portfolio-nav {
+    display: flex;
+    justify-content: center;
+}.portfolio-works {
+    display: flex;
+    flex-wrap: wrap;
 }
 .footer {
     margin-top: 94px;
