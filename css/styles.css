@@ -100,7 +100,7 @@ img {
 
 .site-nav {
     display: flex;
-    margin-left: 50px;
+    margin-left: 93px;
     align-self: center;
 }
 
@@ -216,10 +216,15 @@ img {
 .feature-list {
     display: flex;
     justify-content: center;
+    padding-top: 94px;
+    padding-bottom: 94px;
     gap: 30px;
 }
 .feature-list .item {
     width: 270px;
+}
+.section-what-we-do {
+    padding-bottom: 94px;
 }
 .what-we-do {
     display: flex;
@@ -302,13 +307,14 @@ img {
     line-height: 2;
 }
 
-.portfolio-bottons {
+.section-portfolio {
     padding-top: 94px;
-    padding-bottom: 50px;
+    padding-bottom: 94px;
 }
 .portfolio-nav {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .portfolio-nav .list {
     margin-bottom: 50px;
@@ -317,10 +323,16 @@ img {
     display: flex;
     flex-wrap: wrap;
 }
+.portfolio-text {
+    padding: 20px 26px;
+    border-right: 1px;
+    border-bottom: 1px;
+    border-left: 1px;
+}
 .flex-element {
    margin: 15px;}
 
-.portfolio-works .list {
+.portfolio-works {
     margin: -15px;
 }
 
@@ -345,6 +357,9 @@ img {
 .footer .link:focus {
     color: var(--accent-color);
 }
+.footer-span {
+    color: var(--accent-white-color);
+}
 .footer-text {
     margin-bottom: 2px;
     color: var(--accent-white-color);
@@ -362,6 +377,6 @@ img {
     line-height: 1.7;
     text-decoration: none;
 }
-.footer .list .footer-link:not(:last-child) {
-padding-bottom: 2px;
+.footer-link:not(:last-child) {
+padding-bottom: 10px;
 }
