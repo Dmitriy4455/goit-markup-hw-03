@@ -153,7 +153,6 @@ img {
 .hero {
     padding-top: 200px;
     padding-bottom: 200px;
-    margin-bottom: 94px;
    
     text-align: center;
     color: var(--accent-white-color);
@@ -192,14 +191,10 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.section {
-    margin-bottom: 94px;
-}
 .section .features {
     padding-top: 94px 0px;
 }
 .section-title {
-    margin-top: 94px;
     margin-bottom: 50px;
     text-align: center;
 
@@ -207,6 +202,11 @@ img {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
+}
+.section-our-team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background: #F5F4FA;
 }
 .feature-list {
     display: flex;
@@ -255,8 +255,6 @@ img {
 }
 .button.secondary {
     margin-right: 8px;
-    margin-top: 94px;
-    margin-bottom: 50px;
     padding: 2px 26px;
    
     color: var(--section-title-colot);
@@ -266,6 +264,9 @@ img {
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
+}
+.section-works {
+    margin-bottom: 94px;
 }
 .section-title-targets {
     margin-top: 0px;
@@ -295,23 +296,29 @@ img {
     font-size: 18px;
     line-height: 2;
 }
-.flex-container {
-margin: -15px;
-}
-.flex-element {
-   margin: 15px;
-}
+
 .portfolio-bottons {
-    
+    padding-top: 94px;
+    padding-bottom: 50px;
 }
 .portfolio-nav {
     display: flex;
     justify-content: center;
 }
+.portfolio-nav .list {
+    margin-bottom: 50px;
+}
 .portfolio-works {
     display: flex;
     flex-wrap: wrap;
 }
+.flex-element {
+   margin: 15px;}
+
+.portfolio-works .list {
+    margin: -15px;
+}
+
 .footer {
    padding-top: 60px;
    padding-bottom: 60px;
@@ -326,7 +333,7 @@ margin: -15px;
     margin-bottom: 20px;
 }
 .footer .link {
-    color: var(--primary-text-color);
+    color: rgba(255, 255, 255, 0.6);;
     text-decoration: none;
 }
 .footer .link:hover,
@@ -334,6 +341,7 @@ margin: -15px;
     color: var(--accent-color);
 }
 .footer-text {
+    margin-bottom: 2px;
     color: var(--accent-white-color);
     font-style: normal;
     font-weight: 400;
@@ -348,4 +356,7 @@ margin: -15px;
     font-size: 14px;
     line-height: 1.7;
     text-decoration: none;
+}
+.footer .list .footer-link:not(:last-child) {
+padding-bottom: 2px;
 }
